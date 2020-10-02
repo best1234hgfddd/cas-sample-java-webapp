@@ -8,7 +8,7 @@ Configure
 - Adjust the url endpoints of the CAS server and 
 the application server in the [`web.xml`](https://github.com/UniconLabs/cas-sample-java-webapp/blob/master/src/main/webapp/WEB-INF/web.xml) file.
 
-## Build
+# Build
 
 * Create a Java keystore at `/etc/cas/jetty/thekeystore` with the password `changeit`.
 * Import your server certificate inside this keystore.
